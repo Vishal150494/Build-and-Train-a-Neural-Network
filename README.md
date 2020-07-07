@@ -5,8 +5,12 @@ I'll be using the Fashion-MNIST dataset, a drop-in replacement for the MNIST dat
 <img src='assets/fashion-mnist-sprite.png' width=500px>
 
 ## Requirements
-- Python 3.8
+- jupyter
+- matplotlib
+- pandas
+- numpy
 - Pytorch 
+- seaborn
 
 ## Steps 
 - Load the datasets using `torchvision`. [Fashion-MNIST dataset](https://github.com/zalandoresearch/fashion-mnist)
