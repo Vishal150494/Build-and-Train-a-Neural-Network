@@ -11,3 +11,14 @@ I'll be using the Fashion-MNIST dataset, a drop-in replacement for the MNIST dat
 ## Steps 
 - Load the datasets using `torchvision`. [Fashion-MNIST dataset](https://github.com/zalandoresearch/fashion-mnist)
 - You can see one of the images like this
+<img src='Test_Image_Show.png' width=500px>
+- Use the ReLU activations for the layers and to return the logits or log-softmax from the forward pass.
+- Make a forward pass through the network to get the logits 
+- Use the logits to calculate the loss
+- Perform a backward pass through the network with `loss.backward()` to calculate the gradients
+- Take a step with the optimizer to update the weights
+
+## Result Summary
+
+On running the code you should expect the output something like the following. 
+<img src='assets/Results_Fashion_MNIST.png' width=500px>
